@@ -133,4 +133,12 @@ public class RgbColor {
         int blueDiff = blue - anotherColor.getBlue();
         return new RgbColor(redDiff, greenDiff, blueDiff);
     }
+
+    public RgbColor mix(RgbColor mixer, double proportion) {
+        Double redOutput = red * proportion + mixer.getRed() * (1 - proportion);
+        Double greenOutput = green * proportion + mixer.getGreen() * (1 - proportion);
+        Double blueOutput = blue * proportion + mixer.getBlue() * (1 - proportion);
+        RgbColor output = new RgbColor(redOutput.intValue(), greenOutput.intValue(), blueOutput.intValue());
+        return output;
+    }
 }

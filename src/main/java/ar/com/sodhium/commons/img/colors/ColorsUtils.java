@@ -218,4 +218,27 @@ public class ColorsUtils {
         int blue = (int) ((color.getBlue() + color2.getBlue()) / 2);
         return new RgbColor(red, green, blue);
     }
+
+    public static ColorMap mixMaps(ColorMap targetMap, ColorMap mixingMap, double proportion) throws Exception {
+        ColorMap outpMap = new ColorMap(targetMap.getWidth(), targetMap.getHeight());
+        outpMap.initializeEmpty();
+        for (int x = 0; x < targetMap.getWidth() - 1; x++) {
+            for (int y = 0; y < targetMap.getHeight() - 1; y++) {
+                RgbColor originalColor = targetMap.getRgbColor(x, y);
+                RgbColor mixingColor = null;
+                if(x < mixingMap.getWidth() && y < mixingMap.getHeight()) {
+                    try {
+                        mixingColor = mixingMap.getRgbColor(x, y);
+                    } catch (Exception e) {
+                        mixingColor = originalColor;
+                    }
+                } else {
+                    mixingColor = originalColor;
+                }
+                RgbColor averageColor = originalColor.mix(mixingColor, proportion);
+                outpMap.setRgbColor(x, y, averageColor);
+            }
+        }
+        return outpMap;
+    }
 }

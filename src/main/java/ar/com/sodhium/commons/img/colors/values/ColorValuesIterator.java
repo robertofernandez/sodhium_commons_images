@@ -43,12 +43,4 @@ public class ColorValuesIterator implements Iterator<Integer> {
     public void remove() {
 
     }
-
-    /**
-     * @param args
-     */
-    public static void main(String[] args) {
-
-    }
-
 }

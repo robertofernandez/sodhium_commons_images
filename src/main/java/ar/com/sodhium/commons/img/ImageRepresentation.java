@@ -143,10 +143,6 @@ public class ImageRepresentation {
         return image;
     }
 
-//    public OppScoutBotTestIde getParentIde() {
-//        return parentIde;
-//    }
-
     public int getImageHeight() {
         return imageHeight;
     }
