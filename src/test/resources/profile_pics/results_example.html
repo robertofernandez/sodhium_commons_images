@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pictures detection tests results</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .gallery img {
+      max-width: 200px;
+      height: auto;
+      margin: 10px;
+    }
+	
+    figcaption {
+      font-family: 'Arial', sans-serif;
+      font-size: 12px;
+      color: #999999;
+      text-align: center;
+      margin-top: 10px;
+    }
+	
+    h1 {
+      font-family: 'Arial', sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+      color: #333333;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-family: 'Arial', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: #666666;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Pictures detection tests results</h1>
+
+<h2>Not empty</h2>
+
+<div class="gallery">
+  <div>
+    <img class='grid-item' src='testing/candidate_lkd_pp_5614.jpg' alt=''>
+    <figcaption>candidate_lkd_pp_5614.jpg</figcaption>
+  </div>
+  <div>
+    <img class='grid-item' src='testing/sq5.png' alt=''>
+    <figcaption>sq5.png</figcaption>
+  </div>
+  <div>
+    <img class='grid-item' src='testing/candidate_lkd_pp_5614.jpg' alt=''>
+    <figcaption>candidate_lkd_pp_5614.jpg</figcaption>
+  </div>
+  <div>
+    <img class='grid-item' src='testing/sq5.png' alt=''>
+    <figcaption>sq5.png</figcaption>
+  </div>
+</div>
+</div>
+
+
+<h2>Empty</h2>
+
+<div class="gallery">
+  <div>
+    <img class='grid-item' src='testing/candidate_lkd_pp_16582.jpg' alt=''>
+    <figcaption>Empty candidate: candidate_lkd_pp_16582.jpg</figcaption>
+  </div>
+  <div>
+    <img class='grid-item' src='testing/default_simplified.png' alt=''>
+    <figcaption>Empty company: default_simplified.png</figcaption>
+  </div>
+</div>
+
+</body>
+</html>
+

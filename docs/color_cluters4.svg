@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="440"
+   height="440"
+   viewBox="0 0 440 440"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="color_cluters1.svg">
+
+<rect x="0.0" y="0.0" width="165.0" height="275.0" style="fill:#E7E2DC;stroke:black;stroke-width:1;opacity:1"/>
+<rect x="0.0" y="275.0" width="55.0" height="164.0" style="fill:#E7E2DC;stroke:black;stroke-width:1;opacity:1"/>
+<rect x="55.0" y="275.0" width="110.0" height="164.0" style="fill:#7790A6;stroke:black;stroke-width:1;opacity:1"/>
+<rect x="165.0" y="275.0" width="110.0" height="164.0" style="fill:#57687A;stroke:black;stroke-width:1;opacity:1"/>
+<rect x="275.0" y="275.0" width="111.0" height="164.0" style="fill:#9BB4C8;stroke:black;stroke-width:1;opacity:1"/>
+<rect x="386.0" y="275.0" width="53.0" height="164.0" style="fill:#E7E2DC;stroke:black;stroke-width:1;opacity:1"/>
+<rect x="165.0" y="0.0" width="274.0" height="55.0" style="fill:#E7E2DC;stroke:black;stroke-width:1;opacity:1"/>
+<rect x="165.0" y="55.0" width="220.0" height="220.0" style="fill:#9BB4C8;stroke:black;stroke-width:1;opacity:1"/>
+<rect x="386.0" y="55.0" width="53.0" height="384.0" style="fill:#E7E2DC;stroke:black;stroke-width:1;opacity:1"/>
+
+</svg>
